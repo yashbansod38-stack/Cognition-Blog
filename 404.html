@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Page Not Found | Cognition</title>
+  <meta name="description" content="This page doesn't exist. Head back to Cognition for sharp thinking on AI, Longevity & Investing." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://cognition.blog/404.html" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="./index.html" class="nav-logo">
+      <span class="nav-logo-text">Cognition</span>
+      <span class="nav-logo-dot"></span>
+    </a>
+    <div class="nav-actions">
+      <button class="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </div>
+</nav>
+
+<main class="page-404" role="main" aria-labelledby="error-heading">
+
+  <div class="page-404-code" aria-hidden="true">404</div>
+
+  <h1 id="error-heading">Page not found</h1>
+
+  <p>
+    This URL doesn't exist — or it moved. Either way, there's sharper 
+    thinking waiting for you on the homepage.
+  </p>
+
+  <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
+    <a href="./index.html" class="btn-primary">Go to Homepage →</a>
+    <a href="./index.html#newsletter" class="btn-secondary">✉️ Join Newsletter</a>
+  </div>
+
+  <div style="margin-top:48px;display:flex;flex-direction:column;align-items:center;gap:8px;">
+    <p style="font-size:12px;color:var(--text-muted);">Latest from Cognition:</p>
+    <div id="fallback-links" style="display:flex;flex-direction:column;gap:6px;text-align:center;"></div>
+  </div>
+
+</main>
+
+<script src="./assets/js/main.js"></script>
+<script>
+  // Show a few blog links as helpful fallback
+  document.addEventListener('DOMContentLoaded', async () => {
+    DarkMode.init();
+    try {
+      const blogs = await fetch('./data/blogs.json').then(r => r.json());
+      const container = document.getElementById('fallback-links');
+      blogs.slice(0, 3).forEach(b => {
+        const a = document.createElement('a');
+        a.href = `./blogs/${b.slug}.html`;
+        a.style.cssText = 'font-size:14px;color:var(--accent);text-decoration:underline;text-underline-offset:3px;';
+        a.textContent = b.title;
+        container.appendChild(a);
+      });
+    } catch (_) {}
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://cognition.in/</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- The Indian Longevity Supplement Stack -->
+  <url>
+    <loc>https://cognition.in/blogs/Indian-Longevity-Stack.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cognition.in/assets/images/blog-indian-longevity.jpg</image:loc>
+      <image:title>The Indian Longevity Supplement Stack</image:title>
+    </image:image>
+  </url>
+
+  <!-- The Blue Ocean: Outperforming Vidiq & TubeBuddy -->
+  <url>
+    <loc>https://cognition.in/blogs/Outperforming-Vidiq-TubeBuddy.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cognition.in/assets/images/blog-creator-tools.png</image:loc>
+      <image:title>The Blue Ocean: Outperforming Vidiq &amp; TubeBuddy</image:title>
+    </image:image>
+  </url>
+
+  <!-- Vidiq vs TubeBuddy: The Creator's Toolkit -->
+  <url>
+    <loc>https://cognition.in/blogs/Vidiq vs TubeBuddy.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cognition.in/assets/images/blog-vidiq-tubebuddy.png</image:loc>
+      <image:title>Vidiq vs TubeBuddy: The Creator's Toolkit</image:title>
+    </image:image>
+  </url>
+
+  <!-- The State of Blogging 2026: Dead, Evolved, or Thriving? -->
+  <url>
+    <loc>https://cognition.in/blogs/State-of-Blogging.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cognition.in/assets/images/blog1.png</image:loc>
+      <image:title>The State of Blogging 2026: Dead, Evolved, or Thriving?</image:title>
+    </image:image>
+  </url>
+
+  <!-- Mastering AI Agents: The Salary Doubler -->
+  <url>
+    <loc>https://cognition.in/blogs/mastering-ai-agents.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cognition.in/assets/images/blog2.png</image:loc>
+      <image:title>Mastering AI Agents: The Salary Doubler</image:title>
+    </image:image>
+  </url>
+
+  <!-- How Autonomous AI Agents Are Replacing Entire Business Stacks -->
+  <url>
+    <loc>https://cognition.in/blogs/ai-agents-business-stack-2026.html</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cognition.in/assets/images/blog-ai-agents.jpg</image:loc>
+      <image:title>How Autonomous AI Agents Are Replacing Entire Business Stacks</image:title>
+    </image:image>
+  </url>
+
+</urlset>

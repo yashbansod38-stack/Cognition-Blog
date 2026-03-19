@@ -1,0 +1,74 @@
+[
+  {
+    "title": "The Indian Longevity Supplement Stack",
+    "description": "NMN, Ashwagandha & Shilajit — What Actually Works in 2026. A science-backed, India-first guide bridging 3,000 years of Ayurvedic tradition with modern cellular biology.",
+    "category": "longevity",
+    "categoryLabel": "Longevity & Bio-Optimization",
+    "date": "2026-03-16",
+    "readTime": 12,
+    "featured": true,
+    "image": "assets/images/blog-indian-longevity.jpg",
+    "slug": "Indian-Longevity-Stack",
+    "id": "Indian-Longevity-Stack"
+  },
+  {
+    "title": "The Blue Ocean: Outperforming Vidiq & TubeBuddy",
+    "description": "A data-driven analysis of the $100M gaps in the creator tool market — moving beyond metadata optimization to content ecosystem management.",
+    "category": "creator",
+    "categoryLabel": "Creator Economy",
+    "date": "2026-02-27",
+    "readTime": 8,
+    "featured": true,
+    "image": "assets/images/blog-creator-tools.png",
+    "slug": "Outperforming-Vidiq-TubeBuddy",
+    "id": "Outperforming-Vidiq-TubeBuddy"
+  },
+  {
+    "title": "Vidiq vs TubeBuddy: The Creator's Toolkit",
+    "description": "Analyzing the capabilities, limitations, and market demand of Vidiq and TubeBuddy in the modern Creator Economy.",
+    "category": "creator",
+    "categoryLabel": "Creator Economy",
+    "date": "2026-02-27",
+    "readTime": 10,
+    "featured": true,
+    "image": "assets/images/blog-vidiq-tubebuddy.png",
+    "slug": "Vidiq vs TubeBuddy",
+    "id": "Vidiq vs TubeBuddy"
+  },
+  {
+    "title": "The State of Blogging 2026: Dead, Evolved, or Thriving?",
+    "description": "A data-driven research report on how blogging really works in 2026 — traffic collapse, trust economy, and creator-led monetization.",
+    "category": "creator",
+    "categoryLabel": "Creator Economy",
+    "date": "2026-02-26",
+    "readTime": 12,
+    "featured": true,
+    "image": "assets/images/blog1.png",
+    "slug": "State-of-Blogging",
+    "id": "State-of-Blogging"
+  },
+  {
+    "title": "Mastering AI Agents: The Salary Doubler",
+    "description": "Strategic skill acquisition for the 2025-2027 job market with AI agents.",
+    "category": "ai",
+    "categoryLabel": "AI Workflow Engineering",
+    "date": "2026-02-25",
+    "readTime": 10,
+    "featured": true,
+    "image": "assets/images/blog2.png",
+    "slug": "mastering-ai-agents",
+    "id": "mastering-ai-agents"
+  },
+  {
+    "title": "How Autonomous AI Agents Are Replacing Entire Business Stacks",
+    "description": "A breakdown of the agent-to-agent economy and which roles are already automated in forward-thinking companies. 5 min read.",
+    "category": "ai",
+    "categoryLabel": "AI Workflow Engineering",
+    "date": "2026-02-20",
+    "readTime": 5,
+    "featured": true,
+    "image": "assets/images/blog-ai-agents.jpg",
+    "slug": "ai-agents-business-stack-2026",
+    "id": "ai-agents-business-stack-2026"
+  }
+]

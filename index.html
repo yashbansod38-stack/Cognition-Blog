@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO Meta Tags -->
+  <title>Cognition — Short. Insightful. Data-backed ideas on AI, Longevity & Investing.</title>
+  <meta name="description"
+    content="A personal media platform for high-signal thinking on AI Workflow Engineering, Longevity & Bio-Optimization, and Fractional Asset Investing. No fluff. Pure insight." />
+  <meta name="keywords"
+    content="AI workflow, autonomous agents, longevity, biohacking, fractional investing, personal finance, healthspan" />
+  <meta name="author" content="Cognition Blog" />
+  <link rel="canonical" href="https://cognition.in/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Cognition — Data-backed ideas on AI, Longevity & Investing" />
+  <meta property="og:description" content="Short. Insightful. Data-backed ideas on AI, Longevity & Investing." />
+  <meta property="og:url" content="https://cognition.in/" />
+  <meta property="og:image" content="https://cognition.in/assets/images/og-cover.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@cognitionblog" />
+  <meta name="twitter:title" content="Cognition — Data-backed ideas on AI, Longevity & Investing" />
+  <meta name="twitter:description" content="Short. Insightful. Data-backed ideas on AI, Longevity & Investing." />
+  <meta name="twitter:image" content="https://cognition.in/assets/images/og-cover.jpg" />
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Cognition",
+    "url": "https://cognition.in",
+    "description": "Short. Insightful. Data-backed ideas on AI, Longevity & Investing.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Cognition",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cognition.in/assets/images/logo.png"
+      }
+    }
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>" />
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VBZYC58V0R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-VBZYC58V0R');
+  </script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/shell.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div id="reading-progress" aria-hidden="true"></div>
+
+  <!-- ══════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════ -->
+  <nav id="cognition-nav" class="navbar"></nav>
+  <div id="cognition-mobile-nav" class="nav-mobile"></div>
+
+  <!-- ══════════════════════════════════════════
+     HERO SECTION
+══════════════════════════════════════════ -->
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+
+      <div class="hero-eyebrow">
+        <span class="hero-eyebrow-dot" aria-hidden="true"></span>
+        New articles every Day
+      </div>
+
+      <h1 id="hero-heading">
+        Short. Insightful.<br />
+        <em>Data-backed</em> ideas on AI,<br />
+        Longevity &amp; Investing.
+      </h1>
+
+      <p class="hero-sub">
+        No fluff. No padding. Just high-signal thinking for people who treat their time,
+        health, and capital as finite resources.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="#blogs" class="btn-primary">
+          Read Latest →
+        </a>
+        <a href="#newsletter" class="btn-secondary">
+          ✉️ Join Newsletter
+        </a>
+      </div>
+
+      <div class="hero-stats" aria-label="Platform stats">
+        <div class="hero-stat-item">
+          <div class="hero-stat-num" id="stat-articles">8+</div>
+          <div class="hero-stat-label">Articles</div>
+        </div>
+        <div class="hero-stat-item">
+          <div class="hero-stat-num">3</div>
+          <div class="hero-stat-label">Categories</div>
+        </div>
+        <div class="hero-stat-item">
+          <div class="hero-stat-num">~6 min</div>
+          <div class="hero-stat-label">Avg. Read Time</div>
+        </div>
+        <div class="hero-stat-item">
+          <div class="hero-stat-num">0</div>
+          <div class="hero-stat-label">Fluff Sentences</div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ══════════════════════════════════════════
+       CATEGORY FILTER
+  ══════════════════════════════════════════ -->
+    <section class="filter-section" aria-label="Filter by category">
+      <p class="filter-label">Filter by topic</p>
+      <div class="filter-pills" role="group" aria-label="Category filters">
+        <button class="filter-pill" data-filter="all" aria-pressed="true">
+          All Topics
+        </button>
+        <button class="filter-pill" data-filter="ai" aria-pressed="false" id="ai-workflow">
+          🤖 AI Workflow Engineering
+        </button>
+        <button class="filter-pill" data-filter="creator" aria-pressed="false" id="creator-economy">
+          🎥 Creator Economy
+        </button>
+        <button class="filter-pill" data-filter="longevity" aria-pressed="false" id="longevity">
+          🧬 Longevity &amp; Bio-Optimization
+        </button>
+        <button class="filter-pill" data-filter="investing" aria-pressed="false" id="investing">
+          📊 Fractional Asset Investing
+        </button>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+       BLOG CARDS GRID
+  ══════════════════════════════════════════ -->
+    <section class="blogs-section" id="blogs" aria-labelledby="blogs-heading">
+
+      <div class="blogs-header">
+        <h2 id="blogs-heading"
+          style="font-family:var(--font-display);font-size:clamp(20px,2.5vw,26px);font-weight:600;letter-spacing:-0.02em;">
+          All Articles
+        </h2>
+        <span class="blogs-count" id="blogs-count" aria-live="polite"></span>
+      </div>
+
+      <!-- Scrollable 3-row container -->
+      <div class="blogs-scroll-container" role="region" aria-label="Blog articles">
+        <div class="blogs-grid" id="blogs-grid" role="list" aria-busy="true">
+          <!-- Cards injected by main.js from blogs.json -->
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ══════════════════════════════════════════
+       NEWSLETTER SECTION
+  ══════════════════════════════════════════ -->
+    <!-- ══════════════════════════════════════════
+       NEWSLETTER SECTION
+  ══════════════════════════════════════════ -->
+    <section id="cognition-newsletter"></section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+  <footer id="cognition-footer" class="footer"></footer>
+
+  <!-- Footer year script -->
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+
+  <!-- Main JS -->
+  <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

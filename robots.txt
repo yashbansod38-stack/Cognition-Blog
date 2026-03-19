@@ -1,0 +1,16 @@
+# Cognition Blog — robots.txt
+# https://cognition.in/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block admin or draft paths if added later
+Disallow: /drafts/
+Disallow: /admin/
+
+# Allow assets and data
+Allow: /assets/
+Allow: /data/
+
+# Sitemap location
+Sitemap: https://cognition.in/sitemap.xml
